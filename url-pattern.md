@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: page
 title: URL Pattern
 nav_order: 2
 ---
@@ -16,11 +16,13 @@ Matched:
 ```
 www.tiket.com/hotel
 ```
+{: .matched}
 
 Not Matched:
 ```
 www.tiket.com/hotels
 ```
+{: .unmatched}
 
 ## Dynamic URL
 
@@ -33,6 +35,7 @@ Matched:
 www.tiket.com/hotel/indonesia/jakarta
 www.tiket.com/hotel/thailand/bangkok
 ```
+{: .matched}
 
 ## Regex
 
@@ -42,11 +45,12 @@ www.tiket.com/hotel/thailand/bangkok
 /hotel/*
 ```
 
-Matched:
+Matched:{: .matched}
 ```
 www.tiket.com/hotel/indonesia/city/jakarta
 www.tiket.com/hotel/japan/region/toky
 ```
+{: .matched}
 
 ### Pattern of parameter
 
@@ -59,8 +63,10 @@ Matched:
 www.tiket.com/flight/DPS-87
 www.tiket.com/flight/DPS-55
 ```
+{: .matched}
 
 Not matched:
 ```
 www.tiket.com/flight/DPS-MESC
 ```
+{: .unmatched}

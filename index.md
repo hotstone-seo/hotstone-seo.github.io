@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: page
 title: Home
 nav_order: 1
 ---
@@ -8,11 +8,22 @@ nav_order: 1
 
 Tag Management System with Server-Side-Rendering and Data-Sourcing
 
-## System Component
+## Features
 
-<img src="assets/images/system-component.png" style="max-width:500px;">
+1. Slick UI/UX
+2. Authentication/authorization
+3. External Data Sourcing
+4. Server-side Rendering (SSR) client
+5. High Performance 
+6. Bulk management using url pattern and templating language
 
-## Data Sourcing
+## External Data Sourcing
 
 ![Data Sourcing](assets/images/data-sourcing.png)
+
+## Project Status
+
+<img src="https://www.repostatus.org/badges/latest/wip.svg">
+
+*WIP – Initial development is in progress, but there has not yet been a stable, usable release suitable for the public.*
 

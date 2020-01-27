@@ -1,0 +1,12 @@
+p{
+    margin-top: 1em !important;
+    margin-bottom: 0 !important; 
+}
+
+.matched .highlight>*{
+    background-color: #8FBC8F !important;
+}
+
+.unmatched .highlight>*{
+    background-color: #FA8072 !important;
+}
