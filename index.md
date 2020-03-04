@@ -4,20 +4,13 @@ title: Home
 nav_order: 1
 ---
 
-# HotStone SEO
+# A Server-Side Tag Management
 
-Tag Management System with Server-Side-Rendering and Data-Sourcing
+Hot-Stone SEO is Tag Management System that support Server-Side-Rendering (SSR) and data sourcing
 {: .fs-5}
 
 ---
 
-## Features
-
-- Slick UI/UX
-- Authentication/authorization
-- External Data Sourcing
-- Server-side Rendering (SSR) client
-- High Performance 
 
 ## How it work
 
@@ -27,7 +20,7 @@ Tag Management System with Server-Side-Rendering and Data-Sourcing
 1. Provide a rule on which tags should be rendered on a page
 2. Provide a datasource to retrieve contextual data
 3. Decide how the tags should be formatted
-4. Let HotStone handle it in your application
+4. Let Hot-Stone handle it in your application
 
 ---
 

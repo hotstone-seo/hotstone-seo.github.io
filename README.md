@@ -1,4 +1,4 @@
-# HotStone SEO Github Page
+# Hot-Stone SEO Github Page
 
 ## Get Started
 
