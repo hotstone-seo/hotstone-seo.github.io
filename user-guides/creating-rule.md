@@ -6,10 +6,14 @@ nav_order: 1
 ---
 
 # Creating Rule
+
 <img src="../assets/images/create-rule-step01.png">
 {: .prop}
 
-1. Click Button '<b><i>Add New Rule</i></b>'
+Steps to create a new rule:
+{: .prop}
+
+1. Click Button '<b><i>Add New Rule</i></b>' which is located above table
 <img src="../assets/images/create-rule-step02.png">
 
     * Field `Name` and `URL Pattern` are mandatory fields 
