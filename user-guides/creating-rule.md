@@ -25,18 +25,4 @@ nav_order: 1
 
 # Editing Rule
 
-# Creating Meta Tag
 
-# Creating Title Tag
-
-# Creating Canonical Tag
-
-# Creating Script Tag
-
-# Editing Meta Tag
-
-# Editing Title Tag
-
-# Editing Canonical Tag
-
-# Editing Script Tag
