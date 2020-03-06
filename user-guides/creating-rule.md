@@ -13,7 +13,7 @@ nav_order: 1
 Steps to create a new rule:
 {: .prop}
 
-1. Click Button '<b><i>Add New Rule</i></b>' which is located above table
+1. Click '<b><i>Add New Rule</i></b>' button which is located above table
 <img src="../assets/images/create-rule-step02.png">
 
     * Field `Name` and `URL Pattern` are mandatory fields 
@@ -22,9 +22,9 @@ Steps to create a new rule:
 2. Please fill in all mandatory fields
 <img src="../assets/images/create-rule-step03.png">
 
-3. Press button '<b><i>Save</i></b>' to save new data
+3. Press '<b><i>Save</i></b>' button to save new data
 
-4. After press Save button, will be redirect to Tag List
+4. After press '<b><i>Save</i></b>' button, will be redirect to Tag List
 <img src="../assets/images/create-rule-step04.png">
 
 # Editing Rule
