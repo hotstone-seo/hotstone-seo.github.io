@@ -3,16 +3,27 @@
 ## Get Started
 
 1. Install Ruby
+
     ```bash
     brew install ruby
     ```
+
 2. Install Jekyll
+
     ```bash
     gem install bundler jekyll
     ```
-3. Start the website
+
+3. Install gems declared in `Gemfile`
+
     ```bash
-    bundle exec jekyll start
+    bundle install
+    ```
+
+4. Start the website
+
+    ```bash
+    bundle exec jekyll serve
     ```
 
 ### Learn More
