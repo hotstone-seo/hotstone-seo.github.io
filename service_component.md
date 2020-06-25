@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Tech Stacks
-nav_order: 3
+nav_order: 2
 ---
 
 # Tech Stacks
