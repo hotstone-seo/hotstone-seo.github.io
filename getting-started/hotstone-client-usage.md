@@ -84,7 +84,6 @@ For convenience, let's remove big React logo at `src/App.js`
 ```javascript
 // src/App.js
 import React from 'react';
-
 // import logo from './logo.svg';
 import './App.css';
 
@@ -216,4 +215,24 @@ class HelmetWrapper extends React.Component {
 }
 
 export { HelmetWrapper }
+```
+
+### On Client-Side
+
+Hydrate your component that uses `renderHelmetTags` (`HelmetWrapper` in this case).
+
+```javascript
+// src/client/index.js
+import React from 'react';
+import ReactDOM from 'react-dom';
+import { HelmetWrapper } from '../hotstone'
+import './index.css';
+import App from '../App';
+
+ReactDOM.hydrate(
+    <HelmetWrapper tags={window.__data.tags}>
+        <App />
+    </HelmetWrapper>,
+    document.getElementById('root')
+);
 ```
