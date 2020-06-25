@@ -186,7 +186,7 @@ app.get('*', (req, res, next) => {
 ### `HelmetWrapper`
 
 If you notice, there is a wrapper component that receives `tags`.
-This component simply renders `tags` as HTML tag using `renderHelmetTags` provided by **HotStone Client**.
+This component simply renders `tags` as HTML tag using `renderHelmetTags` provided by **HotStone Client** (`'hotstone-client/lib/react'`).
 
 Remember, `HelmetWrapper` is not part of **HotStone Client** package. It's just a sample component to demonstrate how to use `renderHelmetTags` with React Helmet.
 
