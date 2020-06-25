@@ -16,7 +16,7 @@ nav_order: 1
 - \* Cache Storage: [Redis](https://redis.io/)
 - Google Oauth2 Client ID & Client Secret (enabling user login using Google Account): [Setting up OAuth 2.0](https://support.google.com/cloud/answer/6158849?hl=en)
 
-**Note**: For convenience on local development, HotStone repository already has `docker-compose.yml` so you can install [Docker](https://www.docker.com/) & [Docker Compose](https://docs.docker.com/compose/) to get that \* services easily run.
+**Note**: For convenience on local development, HotStone repository already has `docker-compose.yml` so you can install [Docker](https://www.docker.com/) & [Docker Compose](https://docs.docker.com/compose/) to get that infrastructure services (\*) easily run.
 
 ## How to Run on Local Environment
 
