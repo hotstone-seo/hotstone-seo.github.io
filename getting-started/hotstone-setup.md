@@ -53,7 +53,7 @@ $ ./typicalw docker up        # Equivalent with `docker-compose up -d`
 
 **HotStone** load the configuration from environment variables or `.env` file.
 If you run `./typicalw` for the first time, it will automatically generates `.env` file with default values for local development.
-For local development, you only need set `AUTH_CLIENT_ID` & `AUTH_CLIENT_SECRET` with Google Oauth2 Client ID & Client Secret.
+For local development, you only need to set `AUTH_CLIENT_ID` & `AUTH_CLIENT_SECRET` with Google Oauth2 Client ID & Client Secret.
 
 `.env`
 
@@ -92,3 +92,29 @@ AUTH_REDIRECT_SUCCESS=http://localhost:3000
 AUTH_REDIRECT_FAILURE=http://localhost:3000/login
 AUTH_LOGOUT_REDIRECT=http://localhost:3000
 ```
+
+### Run **HotStone**
+
+```bash
+$ ./typicalw run
+```
+
+**HotStone** (**Server** & **Provider**) will be run on <http://localhost:8089>
+
+### Run **HotStone UI** / Dashboard
+
+```bash
+$ ./typicalw ui start
+```
+
+It will be run on <http://localhost:3000>
+
+### (Optional) Run Dummy Data Source API
+
+If you want to play around with Rule example with Data Source `events`, run the following command to run dummy API for Data Source `events`:
+
+```bash
+$ ./typicalw json-server
+```
+
+It will be run on <http://localhost:3021>
