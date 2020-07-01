@@ -207,9 +207,10 @@ class HelmetWrapper extends React.Component {
   render() {
       const { tags } = this.state;
       return (
-          <div>
+          <>
               <Helmet>{renderHelmetTags(tags)}</Helmet>
-          </div>
+              {this.props.children}
+          </>
       );
   }
 }
