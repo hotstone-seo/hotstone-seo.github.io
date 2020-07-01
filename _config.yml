@@ -23,7 +23,7 @@ url: "https://hotstone-seo.github.io" # the base hostname & protocol for your si
 
 # Build settings
 markdown: kramdown
-remote_theme: pmarsceill/just-the-docs
+remote_theme: pmarsceill/just-the-docs@v0.2.9
 
 logo: "/assets/images/logo.png"
 
