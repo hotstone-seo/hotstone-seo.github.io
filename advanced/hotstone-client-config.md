@@ -5,7 +5,7 @@ parent: Advanced
 nav_order: 1
 ---
 
-# HotStonce Client Config
+# HotStone Client Config
 
 ```js
 import { HotStoneClient } from 'hotstone-client'
